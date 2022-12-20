@@ -1,4 +1,4 @@
-package main
+package day3
 
 import "fmt"
 
@@ -13,8 +13,4 @@ func fibonacci(N int) {
 		fibList = append(fibList, res)
 	}
 	fmt.Println(fibList)
-}
-
-func main() {
-	fibonacci(100)
 }
