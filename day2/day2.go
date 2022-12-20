@@ -1,4 +1,4 @@
-package main
+package day2
 
 import "fmt"
 
@@ -15,8 +15,4 @@ func LeapYear(Y int, N int) {
 		year++
 	}
 	fmt.Println(lpy)
-}
-
-func main() {
-	LeapYear(2020, 4)
 }
